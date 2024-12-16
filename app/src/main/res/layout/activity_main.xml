@@ -1,0 +1,42 @@
+<LinearLayout android:layout_height="match_parent" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CALCULATOR"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#D11A1A"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/addc"
+        android:layout_margin="10dp"
+        android:background="#FFEB3B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/subb"
+        android:layout_margin="10dp"
+        android:background="#FFEB3B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/multi"
+        android:layout_margin="10dp"
+        android:background="#FFEB3B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/divi"
+        android:layout_margin="10dp"
+        android:background="#FFEB3B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="/"/>
+</LinearLayout>
